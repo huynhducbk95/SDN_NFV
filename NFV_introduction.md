@@ -16,13 +16,12 @@ Kiến trúc của NFV có 3 thành phần chính:
 
 Quá trình tạo ra một dịch vụ mạng được ảo hóa cũng tương tự như quá trình tạo ra một máy ảo. Đó là việc sử dụng công nghệ ảo hóa tài nguyên vật lý thành các tài nguyên ảo hóa như vitual compute, virtual storage, virtual network. Sau đó, việc tạo ra VNF là sử dụng các tài nguyên ảo hóa này với các dịch vụ cụ thể.
 
-Như trong phần giới thiệu đã đề cập, NFV và SDN cùng chung mục đích là quản lý mạng, nhưng vẫn đảm bảo giảm CapEx và OpEx. Dưới đây là mô hình doanh nghiệp trong đó NFV và SDN đồng thời được triển khai.
+Như trong phần giới thiệu đã đề cập, NFV và SDN cùng chung mục đích là quản lý mạng, nhưng vẫn đảm bảo giảm CapEx và OpEx. Dưới đây là thể hiện rằng có rất nhiều tổ chức, doanh nghiệp đang nỗ lực xây dựng các thành phần trong một hệ sinh thái NFV cởi mở và linh động.
+
 ![](https://www.opennetworking.org/images/stories/sdn-resources/sdn-nvf-solution/figure2.png)
 
 
 **Hình 2: Mô hình NFV và SDN trong trong thực tế**
-
-Chúng ta có thể thấy cơ chế để tạo ra một hệ thống mạng kết hợp NFV và SDN. Đầu tiên, sử dụng OpenDayLight project để tạo ra hệ thống mạng theo kiến trúc SDN. Tiếp theo, triển khai các dịch vụ mạng như firewall,caching,NAT,... trên hệ thống mạng vừa tạo ra theo kiến trúc NFV.
 
 ## Lợi ích của NFV
 - Giảm chi phí triển khai (Capital Costs)
