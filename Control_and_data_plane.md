@@ -1,6 +1,6 @@
 # Control plane và Data plane
 ## 
-Hiện nay, trong các hệ thống mạng truyền thống, các thiết bị mạng đang tồn tại cả 2 cơ chế đó là : **control plane** và **data plane**.
+Hiện nay, trong các hệ thống mạng truyền thống, các thiết bị mạng như router,switch,... đang tồn tại cả 2 cơ chế đó là : **control plane** và **data plane**.
 Chúng ta tìm hiểu sơ qua 2 cơ chế này.
 - Control plane:
 	- Là các tài nguyên nằm trên các thiết bị mạng thực hiện chức năng tạo ra những quyết định về con đường dữ liệu sẽ đi.
@@ -15,7 +15,7 @@ Chúng ta tìm hiểu sơ qua 2 cơ chế này.
 Trong trường hợp cụ thể, các thiết bị mạng sẽ thực hiện vai trò control plane hay là data plane. Chúng ta sẽ xét 2 ví dụ về control plane và data plane:
 
 #### Ví dụ 1
-Trong một kiến trúc mạng có 3 router là R1 - R2 - R3, một gói tin được chuyển bắt đầu từ R1 và đích đến là R3. Trong trường hợp này, R1 và R3 là các control plane vì trong gói tin R1 chính là source address và R3 là destination address. Và R2 là Data plane vì gói tin chỉ đi qua R2 mà R2 không đóng vai trò là source address hay là destination address.
+Trong một mô hình mạng có 3 router là R1 - R2 - R3, một gói tin được chuyển bắt đầu từ R1 và đích đến là R3. Trong trường hợp này, R1 và R3 là các control plane vì trong gói tin R1 chính là source address và R3 là destination address. Và R2 là Data plane vì gói tin chỉ đi qua R2 mà R2 không đóng vai trò là source address hay là destination address.
 #### Ví dụ 2
 Ví dụ trong việc vận chuyển trong một thành phố.
 Control plane = quyết định tuyến đường được sử dụng để di chuyển
