@@ -4,7 +4,7 @@ Hiện nay, trong các hệ thống mạng truyền thống, các thiết bị m
 Chúng ta tìm hiểu sơ qua 2 cơ chế này.
 - Control plane:
 	- Là các tài nguyên nằm trên các thiết bị mạng thực hiện chức năng tạo ra những quyết định về con đường dữ liệu sẽ đi.
-	- Các thiết bị đóng vai trò là control plane sẽ là điểm bắt gửi gói tin đi (có source address của gói tin là địa chỉ của thiết bị đó) hoặc là có đích đến của gói tin đó (có nghĩa là destination source là địa chỉ của thiết bị đó).
+	- Các thiết bị đóng vai trò là control plane sẽ là điểm bắt gửi gói tin đi (có source address của gói tin là địa chỉ máy đang kết nối đến thiết bị mạng đó) hoặc là có đích đến của gói tin đó (có nghĩa là destination source là địa chỉ của máy đang kết nối đến thiết bị mạng đó).
 	- Các công việc của control plane là cấu hình hệ thống, quản lý và trao đổi thông tin bảng định tuyến (routing table).
 	- Các router điều khiển việc trao đổi topology information với các router khác và xây dựng một bảng định tuyến dựa trên một giao thức định tuyến (a routing protocol) vd: RIP, OSPF hay BGP.
 - Data plane:
