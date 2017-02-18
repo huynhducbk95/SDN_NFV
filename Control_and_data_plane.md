@@ -25,3 +25,8 @@ Trong hệ thống mạng truyền thống, các nhà cung cấp mạng gặp r�
 
 Công nghệ SDN - Software defined Networking ra đời nhằm giải quyết các vấn đề đang gặp phải trên của mạng truyền thống. Về cơ bản, SDN tách biệt hai cơ chế là control plane và data plane để tạo ra một khung nhìn tổng thể về mạng.
 Chi tiết về SDN sẽ được giới thiệu ở tài liệu khác.
+
+## Tài liệu tham khảo
+
+- http://sdntutorials.com/difference-between-control-plane-and-data-plane/
+- https://learningnetwork.cisco.com/thread/33735
