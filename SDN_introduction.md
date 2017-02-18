@@ -35,3 +35,8 @@ Ngoài ra, sơ đồ trên còn đề cập đến 4 tầng trừu tượng hóa
 - **Control Abstraction Layer (CAL)** - trừu tượng hóa Control-Plane Southbound Interface và DAL đối với các ứng dụng và dịch vụ của Control plane
 - **Management Abstraction Layer (MAL)** - trừu tượng hóa Management Southbound Interface và DAL đối với các application và dịch vụ của Management Plane
 - **Network Service Abstraction Layer (NSAL)** - Cung cấp các dịch vụ trừu tượng hóa để cho các application và các dịch vụ khác sử dụng.
+
+## Tài liệu tham khảo
+
+- https://en.wikipedia.org/wiki/Software-defined_networking
+- https://tools.ietf.org/html/rfc7426
